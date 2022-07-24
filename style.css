@@ -1,0 +1,65 @@
+#home{
+   background-image: url(img/uriel-soberanes-MxVkWPiJALs-unsplash.jpg);
+   background-size: cover;
+   height: 95vh;
+   background-position: center;
+}
+.icons{
+   width: 45px;
+   height: 45px;
+   padding: 0px 15px;
+   border-radius:40px ;
+   margin: 00px 10px;
+   cursor: pointer;
+}
+.icons:hover{
+transform: scale(1.2);
+border: 1px solid red;
+transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.icons:nth-child(1){
+background-color: rgb(255, 255, 255);
+
+}
+.icons:nth-child(2){
+   background-color:  #FF0000;
+   }
+   .icons:nth-child(3){
+      background-color: #FF9900;
+      }
+      .scroll{
+         cursor: pointer;
+      }
+.offers-logo{
+   width: 90px;
+   height: 90px;
+   padding: 10px;
+   background-color: #FF9900;
+   border-radius: 50px;
+   margin-top: 10px;
+  margin-right: 15px;
+}
+#review-sec{
+   background-size: cover;
+   background-position: center;
+   height: 80vh;
+   background-image: url(img/Web\ 1920\ –\ 1.png);
+}
+#review-img{
+   width: 120px;
+   height: 120px;
+   border-radius: 70px;
+}
+#rating i{
+color: #FF9900;
+}
+#review_btn{
+background-color: #938c8c;
+}
+#contact img{
+   width: 60px;
+   height: 60px;
+   background-color: #FF9900;
+   border-radius: 40px;
+   padding: 5px;
+}
